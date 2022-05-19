@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 Images=['./assets/carousel1.jpg','./assets/carousel1.jpg'];
-CardImages=['./assets/impre1.jpg','./assets/cube1.jpg','./assets/abstra1.jpg', './assets/expre1.jpg','./assets/Surre1.jpg','./assets/modern1.jpg'];
-CardNames=['Impressionism','Cubism','Abstract','Expressionism','Surrealism','Modernism'];
+CardImages=['./assets/mural.jpg','./assets/acrylic.jpg','./assets/abstract.jpeg', './assets/water.jpg','./assets/pastel.jpg','./assets/nft.jpg'];
+CardNames=['Mural','Acrylic','Abstract','Watercolor','Pastel','NFTs'];
   constructor() { }
 
   ngOnInit(): void {
